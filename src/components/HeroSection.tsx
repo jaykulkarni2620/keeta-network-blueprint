@@ -26,7 +26,7 @@ const HeroSection = () => {
         </h1>
         
         <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
-          Keeta serves as a common ground for all payment networks and assets.<br />
+          Luxports serves as a common ground for all payment networks and assets.<br />
           One network, ready for anything.
         </p>
 

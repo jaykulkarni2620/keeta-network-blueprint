@@ -18,7 +18,7 @@ const Header = () => {
         {/* Logo */}
         <div className="flex items-center space-x-2">
           <div className="w-8 h-8 bg-gradient-to-br from-keeta-orange to-keeta-orange-light rounded-full"></div>
-          <span className="text-xl font-bold">Keeta Network</span>
+          <span className="text-xl font-bold">Luxports Network</span>
         </div>
 
         {/* Navigation - All 4 buttons */}
