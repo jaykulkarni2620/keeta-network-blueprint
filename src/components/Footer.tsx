@@ -8,7 +8,7 @@ const Footer = () => {
       {/* Large Keeta Text Background */}
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="text-[20rem] md:text-[30rem] font-black text-white/5 select-none leading-none">
-          keeta
+          Luxports 
         </div>
       </div>
 
@@ -21,20 +21,20 @@ const Footer = () => {
               For general inquiries, email us at
             </div>
             <div className="text-white font-medium">
-              general@keeta.com
+              general@Luxports.com
             </div>
             <div className="text-gray-400 text-sm mt-6">
               For press inquiries, email us at
             </div>
             <div className="text-white font-medium">
-              press@keeta.com
+              press@Luxports.com
             </div>
           </div>
 
           {/* Right Side - Copyright, Icons, and Mediakit */}
           <div className="flex flex-col items-end space-y-6">
             <div className="text-gray-400 text-sm">
-              Copyright 2025 Keeta Inc.
+              Copyright 2025 Luxports Inc.
             </div>
             
             {/* Icons */}

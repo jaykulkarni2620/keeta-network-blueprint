@@ -9,7 +9,7 @@ const MarketplaceSection = () => {
           </div>
           <h2 className="text-5xl md:text-6xl font-bold mb-6">Decentralized Marketplace</h2>
           <p className="text-xl text-gray-600 mb-16 max-w-3xl mx-auto leading-relaxed">
-            Leverage Keeta's cross-chain protocol to access liquidity across all major networks
+            Leverage Luxports cross-chain protocol to access liquidity across all major networks
             with instant settlement and zero gas fees.
           </p>
         </div>
