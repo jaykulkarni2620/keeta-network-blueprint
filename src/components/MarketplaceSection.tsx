@@ -1,50 +1,68 @@
 
 const MarketplaceSection = () => {
   return (
-    <section className="py-20 px-6 bg-gray-100">
+    <section className="py-32 px-6 bg-gray-50">
       <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-4xl md:text-5xl font-bold mb-6">Decentralized Marketplace</h2>
-        <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
-          Leverage Keeta's cross-chain protocol to access liquidity across all major networks
-          with instant settlement and zero gas fees.
-        </p>
+        <div className="mb-20">
+          <div className="w-16 h-16 bg-blue-500/10 rounded-full mx-auto mb-8 flex items-center justify-center">
+            <div className="w-8 h-8 bg-blue-500 rounded-full"></div>
+          </div>
+          <h2 className="text-5xl md:text-6xl font-bold mb-6">Decentralized Marketplace</h2>
+          <p className="text-xl text-gray-600 mb-16 max-w-3xl mx-auto leading-relaxed">
+            Leverage Keeta's cross-chain protocol to access liquidity across all major networks
+            with instant settlement and zero gas fees.
+          </p>
+        </div>
 
-        {/* Trading Interface Mockup */}
-        <div className="relative max-w-4xl mx-auto">
-          <div className="bg-white rounded-3xl shadow-2xl p-8 transform rotate-1 hover:rotate-0 transition-transform duration-500">
-            <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl p-6">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div className="bg-white rounded-xl p-4 shadow-sm">
-                  <div className="h-32 bg-gradient-to-br from-blue-100 to-blue-200 rounded-lg mb-4 flex items-center justify-center">
-                    <span className="text-blue-600 font-semibold">ETH/USD</span>
-                  </div>
-                  <div className="text-sm text-gray-600">$2,345.67</div>
+        {/* Trading Interface */}
+        <div className="relative max-w-5xl mx-auto">
+          <div className="bg-keeta-dark rounded-3xl p-8 transform rotate-1 hover:rotate-0 transition-transform duration-500 shadow-2xl">
+            <div className="bg-gray-900 rounded-2xl p-8">
+              {/* Trading chart mockup */}
+              <div className="bg-black rounded-xl p-6 mb-6">
+                <div className="flex justify-between items-center mb-4">
+                  <div className="text-green-400 font-bold text-lg">BTC/USD</div>
+                  <div className="text-white text-sm">Real-Time Trading</div>
                 </div>
-                <div className="bg-white rounded-xl p-4 shadow-sm">
-                  <div className="h-32 bg-gradient-to-br from-green-100 to-green-200 rounded-lg mb-4 flex items-center justify-center">
-                    <span className="text-green-600 font-semibold">BTC/USD</span>
-                  </div>
-                  <div className="text-sm text-gray-600">$43,210.89</div>
+                <div className="h-64 relative">
+                  {/* Chart lines */}
+                  <svg className="w-full h-full" viewBox="0 0 400 200">
+                    <path 
+                      d="M0,150 Q100,120 200,100 T400,80" 
+                      stroke="#10b981" 
+                      strokeWidth="2" 
+                      fill="none"
+                    />
+                    <path 
+                      d="M0,160 Q100,140 200,130 T400,110" 
+                      stroke="#f59e0b" 
+                      strokeWidth="1" 
+                      fill="none" 
+                      opacity="0.6"
+                    />
+                  </svg>
                 </div>
-                <div className="bg-white rounded-xl p-4 shadow-sm">
-                  <div className="h-32 bg-gradient-to-br from-purple-100 to-purple-200 rounded-lg mb-4 flex items-center justify-center">
-                    <span className="text-purple-600 font-semibold">SOL/USD</span>
-                  </div>
-                  <div className="text-sm text-gray-600">$98.76</div>
+              </div>
+              
+              {/* Trading pairs */}
+              <div className="grid grid-cols-3 gap-4">
+                <div className="bg-gray-800 rounded-xl p-4 text-white">
+                  <div className="text-green-400 font-bold">ETH/USD</div>
+                  <div className="text-2xl font-bold">$2,345.67</div>
+                  <div className="text-green-400 text-sm">+2.34%</div>
+                </div>
+                <div className="bg-gray-800 rounded-xl p-4 text-white">
+                  <div className="text-green-400 font-bold">BTC/USD</div>
+                  <div className="text-2xl font-bold">$43,210.89</div>
+                  <div className="text-green-400 text-sm">+1.85%</div>
+                </div>
+                <div className="bg-gray-800 rounded-xl p-4 text-white">
+                  <div className="text-green-400 font-bold">SOL/USD</div>
+                  <div className="text-2xl font-bold">$98.76</div>
+                  <div className="text-green-400 text-sm">+5.67%</div>
                 </div>
               </div>
             </div>
-          </div>
-
-          {/* Callout Tooltips */}
-          <div className="absolute -top-8 left-8 bg-white rounded-lg shadow-lg p-3 text-sm font-medium">
-            Instant Cross Chain Swaps
-            <div className="absolute bottom-0 left-4 transform translate-y-1/2 rotate-45 w-2 h-2 bg-white"></div>
-          </div>
-
-          <div className="absolute -bottom-8 right-8 bg-white rounded-lg shadow-lg p-3 text-sm font-medium">
-            Real Time Liquidity Streaming
-            <div className="absolute top-0 right-4 transform -translate-y-1/2 rotate-45 w-2 h-2 bg-white"></div>
           </div>
         </div>
       </div>
