@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { ChevronDown, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import {logo} from '../../public/images/logo.jpe'
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -18,7 +19,7 @@ const Header = () => {
         {/* Logo */}
         <div className="flex items-center space-x-2">
           <div className="w-8 h-8 bg-gradient-to-br from-keeta-orange to-keeta-orange-light rounded-full"></div>
-          <span className="text-xl font-bold">Luxports Network</span>
+          <span className="text-xl font-bold"><img src={logo} alt="logo" /></span>
         </div>
 
         {/* Navigation - All 4 buttons */}
