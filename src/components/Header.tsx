@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { ChevronDown, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import {logo} from '../../public/images/logo.jpe'
+import {logo} from '../../public/images/logo.jpg'
 import {
   DropdownMenu,
   DropdownMenuContent,
