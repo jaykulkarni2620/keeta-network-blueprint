@@ -2,6 +2,12 @@
 import { useState } from 'react';
 import { ChevronDown, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu';
 
 const Header = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -18,16 +24,64 @@ const Header = () => {
         {/* Navigation - All 4 buttons */}
         <nav className="hidden md:flex items-center space-x-6">
           {/* Resources dropdown */}
-          <div className="flex items-center space-x-1 cursor-pointer hover:text-keeta-orange transition-colors">
-            <span>Resources</span>
-            <ChevronDown className="w-4 h-4" />
-          </div>
+          <DropdownMenu>
+            <DropdownMenuTrigger className="flex items-center space-x-1 cursor-pointer hover:text-keeta-orange transition-colors outline-none">
+              <span>Resources</span>
+              <ChevronDown className="w-4 h-4" />
+            </DropdownMenuTrigger>
+            <DropdownMenuContent className="bg-white border border-gray-200 shadow-lg rounded-md p-1 z-50">
+              <DropdownMenuItem className="flex items-center space-x-2 px-3 py-2 hover:bg-gray-100 cursor-pointer">
+                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14,2 14,8 20,8"></polyline>
+                </svg>
+                <span>Whitepaper</span>
+              </DropdownMenuItem>
+              <DropdownMenuItem className="flex items-center space-x-2 px-3 py-2 hover:bg-gray-100 cursor-pointer">
+                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14,2 14,8 20,8"></polyline>
+                </svg>
+                <span>Docs</span>
+              </DropdownMenuItem>
+              <DropdownMenuItem className="flex items-center space-x-2 px-3 py-2 hover:bg-gray-100 cursor-pointer">
+                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <span>SDK Documentation</span>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
           
           {/* Testnet dropdown */}
-          <div className="flex items-center space-x-1 cursor-pointer hover:text-keeta-orange transition-colors">
-            <span>Testnet</span>
-            <ChevronDown className="w-4 h-4" />
-          </div>
+          <DropdownMenu>
+            <DropdownMenuTrigger className="flex items-center space-x-1 cursor-pointer hover:text-keeta-orange transition-colors outline-none">
+              <span>Testnet</span>
+              <ChevronDown className="w-4 h-4" />
+            </DropdownMenuTrigger>
+            <DropdownMenuContent className="bg-white border border-gray-200 shadow-lg rounded-md p-1 z-50">
+              <DropdownMenuItem className="flex items-center space-x-2 px-3 py-2 hover:bg-gray-100 cursor-pointer">
+                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                </svg>
+                <span>Explorer</span>
+              </DropdownMenuItem>
+              <DropdownMenuItem className="flex items-center space-x-2 px-3 py-2 hover:bg-gray-100 cursor-pointer">
+                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                  <polyline points="3.27,6.96 12,12.01 20.73,6.96"></polyline>
+                  <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                </svg>
+                <span>Faucet</span>
+              </DropdownMenuItem>
+              <DropdownMenuItem className="flex items-center space-x-2 px-3 py-2 hover:bg-gray-100 cursor-pointer">
+                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2L2 7v10c0 5.55 3.84 9.74 9 9 5.16.74 9-3.45 9-9V7l-10-5z"></path>
+                </svg>
+                <span>Bridge</span>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
           
           {/* Discord icon button */}
           <Button

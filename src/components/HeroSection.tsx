@@ -7,7 +7,11 @@ const HeroSection = () => {
       {/* Subtle background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-orange-50/30 via-white to-white"></div>
       
-      {/* Decorative circles */}
+      {/* Large orange circle design elements */}
+      <div className="absolute top-0 right-0 w-[800px] h-[800px] border-2 border-keeta-orange/20 rounded-full transform translate-x-1/3 -translate-y-1/3"></div>
+      <div className="absolute bottom-0 left-0 w-[600px] h-[600px] border-2 border-keeta-orange/15 rounded-full transform -translate-x-1/3 translate-y-1/3"></div>
+      
+      {/* Smaller decorative circles */}
       <div className="absolute top-1/4 right-1/4 w-64 h-64 border border-orange-200/30 rounded-full"></div>
       <div className="absolute bottom-1/3 left-1/3 w-32 h-32 border border-orange-200/20 rounded-full"></div>
       
