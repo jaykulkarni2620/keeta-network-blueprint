@@ -21,7 +21,7 @@ const ComparisonTable = () => {
             The Future of Blockchain
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Compare Luxports with existing solutions and see why we're building the next generation of blockchain infrastructure.
+            Compare LuxePorts with existing solutions and see why we're building the next generation of blockchain infrastructure.
           </p>
         </div>
 
@@ -29,7 +29,7 @@ const ComparisonTable = () => {
           <div className="grid grid-cols-2 gap-8">
             {/* Keeta Column */}
             <div className="space-y-4">
-              <h3 className="text-2xl font-bold text-white mb-8">Luxports</h3>
+              <h3 className="text-2xl font-bold text-white mb-8">LuxePorts</h3>
               {comparisonItems.map((item, index) => (
                 <div key={index} className="flex items-center space-x-4 p-4 bg-white rounded-2xl shadow-sm">
                   <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0">

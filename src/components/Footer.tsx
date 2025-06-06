@@ -8,7 +8,7 @@ const Footer = () => {
       {/* Large Keeta Text Background */}
       <div className="absolute inset-0 flex items-center justify-center">
       {/* <div className="text-[6rem] md:text-[10rem] lg:text-[19rem] font-black text-white/5 select-none leading-none whitespace-nowrap">
-      Luxports
+      LuxePorts
         </div> */}
         {/* <div className='footer_img className="text-[6rem] md:text-[10rem] lg:text-[19rem]'><img src="images/LuxePorts.png" alt="LuxePorts" /></div> */}
       </div>
@@ -22,20 +22,20 @@ const Footer = () => {
               For general inquiries, email us at
             </div>
             <div className="text-white font-medium">
-              general@Luxports.com
+              general@LuxePorts.com
             </div>
             <div className="text-gray-400 text-sm mt-6">
               For press inquiries, email us at
             </div>
             <div className="text-white font-medium">
-              press@Luxports.com
+              press@LuxePorts.com
             </div>
           </div>
 
           {/* Right Side - Copyright, Icons, and Mediakit */}
           <div className="flex flex-col items-end space-y-6">
             <div className="text-gray-400 text-sm">
-              Copyright 2025 Luxports Inc.
+              Copyright 2025 LuxePorts Inc.
             </div>
             
             {/* Icons */}
