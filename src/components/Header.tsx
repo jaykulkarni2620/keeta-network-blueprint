@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { ChevronDown, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { Link } from 'react-router-dom';
+
 
 import {
   DropdownMenu,
@@ -27,11 +29,10 @@ const Header = () => {
         <nav className="hidden md:flex items-center space-x-6">
           {/* Resources dropdown */}
 
-        <DropdownMenu>
-        <DropdownMenuTrigger className="flex items-center space-x-1 cursor-pointer hover:text-keeta-orange transition-colors outline-none">
-          <span>Roadmap</span>
-        </DropdownMenuTrigger>
-        </DropdownMenu>
+          <Link to="/roadmapPage" className="flex items-center space-x-1 cursor-pointer hover:text-keeta-orange transition-colors">
+              <span>Roadmap</span>
+            </Link>
+       
 
 
           <DropdownMenu>
