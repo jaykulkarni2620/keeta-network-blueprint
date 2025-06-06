@@ -7,9 +7,10 @@ const Footer = () => {
     <footer className="relative bg-keeta-dark py-32 px-6 overflow-hidden">
       {/* Large Keeta Text Background */}
       <div className="absolute inset-0 flex items-center justify-center">
-      <div className="text-[6rem] md:text-[10rem] lg:text-[19rem] font-black text-white/5 select-none leading-none whitespace-nowrap">
+      {/* <div className="text-[6rem] md:text-[10rem] lg:text-[19rem] font-black text-white/5 select-none leading-none whitespace-nowrap">
       Luxports
-        </div>
+        </div> */}
+        {/* <div className='footer_img className="text-[6rem] md:text-[10rem] lg:text-[19rem]'><img src="images/LuxePorts.png" alt="LuxePorts" /></div> */}
       </div>
 
       {/* Content */}
@@ -67,6 +68,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className="mt-16 flex justify-center">
+    <img src="images/LuxePorts.png" alt="LuxePorts Logo" className="w-full max-w-[1500px] h-auto" />
+  </div>
     </footer>
   );
 };

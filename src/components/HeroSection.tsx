@@ -18,10 +18,10 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto animate-fade-in">
         <h1 className="text-7xl md:text-8xl font-bold mb-8 leading-tight">
-          Where Networks
+        A Network for the 
           <br />
           <span className="text-keeta-orange">
-            Connect
+          Elite
           </span>
         </h1>
         
