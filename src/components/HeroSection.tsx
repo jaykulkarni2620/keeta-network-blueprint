@@ -18,16 +18,16 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto animate-fade-in">
         <h1 className="text-7xl md:text-8xl font-bold mb-8 leading-tight">
-          Where Networks
+        A Network for the 
           <br />
           <span className="text-keeta-orange">
-            Connect
+          Elite
           </span>
         </h1>
         
         <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
-          Luxports serves as a common ground for all payment networks and assets.<br />
-          One network, ready for anything.
+        Luxe Port unlocks seamless access to luxury — from premium hospitality to high-value digital assets — through intelligent,<br />
+        interconnected infrastructure.
         </p>
 
         {/* Play Button */}
