@@ -18,8 +18,9 @@ const Header = () => {
       <div className="flex items-center justify-between max-w-7xl mx-auto">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-gradient-to-br from-keeta-orange to-keeta-orange-light rounded-full"></div>
-          <span className="text-xl font-bold"><img src="/images/logo.jpeg" alt="logo" /></span>
+          {/* <div className="w-8 h-8 bg-gradient-to-br from-keeta-orange to-keeta-orange-light rounded-full"></div> */}
+          <span className="text-xl font-bold"><img className="w-50 h-auto object-contain" src="/images/inline_logo.png" alt="logo" />
+          </span>
         </div>
 
         {/* Navigation - All 4 buttons */}

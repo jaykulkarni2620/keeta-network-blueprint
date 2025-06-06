@@ -7,8 +7,8 @@ const Footer = () => {
     <footer className="relative bg-keeta-dark py-32 px-6 overflow-hidden">
       {/* Large Keeta Text Background */}
       <div className="absolute inset-0 flex items-center justify-center">
-        <div className="text-[20rem] md:text-[30rem] font-black text-white/5 select-none leading-none">
-          Luxports 
+      <div className="text-[6rem] md:text-[10rem] lg:text-[19rem] font-black text-white/5 select-none leading-none whitespace-nowrap">
+      Luxports
         </div>
       </div>
 
