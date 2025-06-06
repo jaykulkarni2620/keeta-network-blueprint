@@ -27,10 +27,9 @@ const KeyFeaturesSection = () => {
           <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-keeta-orange/10 to-transparent rounded-full -translate-y-1/2 translate-x-1/2"></div>
           
           <div className="relative z-10">
-            <h3 className="text-3xl font-bold text-white mb-8">Move Assets Across Networks</h3>
+            <h3 className="text-3xl font-bold text-white mb-8">Build Real-World Assets On-Chain</h3>
             <p className="text-xl text-gray-300 mb-12 max-w-2xl leading-relaxed">
-              Seamlessly transfer assets across different networks with instant settlement and zero gas fees. 
-              Built for speed and efficiency.
+            Tokenize and manage luxury assets with instant settlement, zero gas fees, and enterprise-grade scalability.
             </p>
             
             {/* Feature icons */}
