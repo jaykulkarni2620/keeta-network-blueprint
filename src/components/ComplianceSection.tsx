@@ -9,13 +9,18 @@ const ComplianceSection = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Image placeholder */}
+
           <div className="relative">
-            <div className="bg-gray-100 rounded-3xl p-8 aspect-square flex items-center justify-center">
+            
+            {/* <div className="bg-gray-100 rounded-3xl p-8 aspect-square flex items-center justify-center">
               <div className="w-48 h-32 bg-white rounded-2xl shadow-lg flex items-center justify-center">
-                <div className="text-gray-400 font-medium">Compliance Dashboard</div>
-              </div>
-            </div>
-            <div className="absolute -top-8 -right-8 w-64 h-64 border border-green-200/20 rounded-full"></div>
+                 */}
+                <div className="text-gray-400 font-medium"></div>
+              {/* </div>
+            </div> */}
+           <img className="w-full h-full object-contain" src="/images/img-builtin-compliance.webp" alt=""/>
+          <div className="absolute -top-8 -right-8 w-64 h-64 border border-green-200/20 rounded-full">
+          </div>
           </div>
 
           {/* Content */}

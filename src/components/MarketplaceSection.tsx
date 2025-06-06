@@ -16,16 +16,17 @@ const MarketplaceSection = () => {
 
         {/* Trading Interface */}
         <div className="relative max-w-5xl mx-auto">
-          <div className="bg-keeta-dark rounded-3xl p-8 transform rotate-1 hover:rotate-0 transition-transform duration-500 shadow-2xl">
+          <img src="/images/Market_chart.png" alt="market chart"/>
+          {/* <div className="bg-keeta-dark rounded-3xl p-8 transform rotate-1 hover:rotate-0 transition-transform duration-500 shadow-2xl">
             <div className="bg-gray-900 rounded-2xl p-8">
-              {/* Trading chart mockup */}
+              {/* Trading chart mockup *
               <div className="bg-black rounded-xl p-6 mb-6">
                 <div className="flex justify-between items-center mb-4">
                   <div className="text-green-400 font-bold text-lg">BTC/USD</div>
                   <div className="text-white text-sm">Real-Time Trading</div>
                 </div>
                 <div className="h-64 relative">
-                  {/* Chart lines */}
+                  {/* Chart lines *
                   <svg className="w-full h-full" viewBox="0 0 400 200">
                     <path 
                       d="M0,150 Q100,120 200,100 T400,80" 
@@ -44,7 +45,7 @@ const MarketplaceSection = () => {
                 </div>
               </div>
               
-              {/* Trading pairs */}
+              {/* Trading pairs *
               <div className="grid grid-cols-3 gap-4">
                 <div className="bg-gray-800 rounded-xl p-4 text-white">
                   <div className="text-green-400 font-bold">ETH/USD</div>
@@ -63,8 +64,8 @@ const MarketplaceSection = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+          </div>*/}
+        </div> 
       </div>
     </section>
   );

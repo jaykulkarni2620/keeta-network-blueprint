@@ -64,7 +64,7 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				keeta: {
-					orange: '#FF5533',
+					orange: '#ba9763',
 					'orange-light': '#FFAA88',
 					dark: '#121212',
 					success: '#00FF00',
