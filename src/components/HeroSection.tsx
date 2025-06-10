@@ -30,12 +30,12 @@ const HeroSection = () => {
         interconnected infrastructure.
         </p>
 
-        {/* Play Button */}
+        {/* Play Button
         <div className="flex justify-center">
           <button className="group flex items-center justify-center w-20 h-20 bg-white rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-110 border border-gray-100">
             <Play className="w-8 h-8 text-keeta-orange ml-1 group-hover:text-keeta-orange-light transition-colors" fill="currentColor" />
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   );
